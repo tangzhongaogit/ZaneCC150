@@ -1,4 +1,4 @@
-package Chapter1;
+package chapter1;
 
 import java.util.HashMap;
 
@@ -10,12 +10,12 @@ public class Palindrome {
         String testCase4 = "abbag";
         String testCase5 = "Tact Coa";
         String testCase6 = "abba;";
-//        System.out.println(checkPalindrome(testCase1));
-//        System.out.println(checkPalindrome(testCase2));
-//        System.out.println(checkPalindrome(testCase3));
-//        System.out.println(checkPalindrome(testCase4));
-//        System.out.println(checkPalindrome(testCase5));
-//        System.out.println(checkPalindrome(testCase6));
+        System.out.println(checkPalindrome(testCase1));
+        System.out.println(checkPalindrome(testCase2));
+        System.out.println(checkPalindrome(testCase3));
+        System.out.println(checkPalindrome(testCase4));
+        System.out.println(checkPalindrome(testCase5));
+        System.out.println(checkPalindrome(testCase6));
         System.out.println(Character.getNumericValue('C'));
         System.out.println(Character.getNumericValue('c'));
     }
